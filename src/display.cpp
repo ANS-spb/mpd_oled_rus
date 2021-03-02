@@ -253,7 +253,7 @@ bool init_display(ArduiPi_OLED &display, int oled, unsigned char i2c_addr,
 
   set_rotation(display, rotate180);
   display.setTextWrap(false);
-
+  display.cp437(true);
   // init done
   display.clearDisplay(); // clears the screen  buffer
   display.display();      // display it (clear display)

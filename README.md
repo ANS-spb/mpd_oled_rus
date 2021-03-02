@@ -1,5 +1,16 @@
 # Moode, Volumio, RuneAudio and MPD OLED Spectrum Display for Raspberry Pi
 
+Русифицированная версия.
+Используется оригинальное ПО [mpd_oled](https://github.com/antiprism/mpd_oled) от Adrian Rossiter, русифицированный файл шрифтов glcdfont.c с форума [Arduino.ru](http://arduino.ru/forum/programmirovanie/rusifikatsiya-biblioteki-adafruit-gfx-i-vyvod-russkikh-bukv-na-displei-v-kodi?page=9#comment-546891) авторства пользователя arduinec, и функция utf8rus оттуда же.
+
+Остальной код оставлен без изменений.
+
+![Демонстрация на OLED дисплее](mpd_oled_rus.jpg)
+
+Проверялось и тестировалось на дисплее 2.42" I2C SSD1309 с плеером Volumio. Но так как изменения коснулись очень малой доли кода, должно работать и на остальных дисплеях, поддерживаемых оригинальной веткой на момент форка (02.02.2021).
+
+Компиляция и установка не изменены, всё нужно делать согласно исходным мануалам (в комплекте).
+
 The mpd_oled program displays an information screen including a music
 frequency spectrum on an OLED screen connected to a Raspberry Pi (or similar)
 running MPD, this includes Moode, Volumio and rAudio (RuneAudio fork).
